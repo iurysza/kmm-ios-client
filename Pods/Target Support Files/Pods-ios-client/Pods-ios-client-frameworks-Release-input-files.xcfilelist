@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ios-client/Pods-ios-client-frameworks.sh
+${PODS_ROOT}/kmmpoc/kmmpoc.framework
+${PODS_ROOT}/kmmpoc/kmmpoc.framework.dSYM

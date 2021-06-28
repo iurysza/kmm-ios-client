@@ -1,0 +1,22 @@
+{
+  "name": "kmmpoc",
+  "version": "1.0.9",
+  "summary": "A KMM poc",
+  "homepage": "https://github.com/iurysza/kmm-poc-cocoa",
+  "description": "KMM for building SDKs",
+  "license": "UNLICENSED",
+  "authors": {
+    "Iury Souza": "iurysza@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "kmmpoc.framework"
+  },
+  "source": {
+    "git": "https://github.com/iurysza/kmm-poc-cocoa.git",
+    "tag": "v1.0.9"
+  },
+  "exclude_files": "Classes/Exclude"
+}

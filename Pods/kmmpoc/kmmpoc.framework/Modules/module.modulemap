@@ -1,0 +1,6 @@
+framework module kmmpoc {
+    umbrella header "kmmpoc.h"
+
+    export *
+    module * { export * }
+}

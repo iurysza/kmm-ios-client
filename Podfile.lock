@@ -1,0 +1,21 @@
+PODS:
+  - kmmpoc (1.0.9)
+
+DEPENDENCIES:
+  - kmmpoc (from `https://github.com/iurysza/kmm-poc-cocoa.git`)
+
+EXTERNAL SOURCES:
+  kmmpoc:
+    :git: https://github.com/iurysza/kmm-poc-cocoa.git
+
+CHECKOUT OPTIONS:
+  kmmpoc:
+    :commit: 7c164fbdf0918d2f1027ac080fffb36cad919400
+    :git: https://github.com/iurysza/kmm-poc-cocoa.git
+
+SPEC CHECKSUMS:
+  kmmpoc: 0a55da8189f53c7be33d82e99a0cb44e6933b7f6
+
+PODFILE CHECKSUM: ade7e4ac0d3e2b6384dcfa4f8ef961e6c433b8b2
+
+COCOAPODS: 1.9.3

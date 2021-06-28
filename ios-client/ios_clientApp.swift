@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import kmmpoc
 
 @main
 struct ios_clientApp: App {
+    let sdk = HackerNewsSDK(databaseDriverFactory: DatabaseDriverFactory())
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: .init(sdk: sdk))
         }
     }
 }
