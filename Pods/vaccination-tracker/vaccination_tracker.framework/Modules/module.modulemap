@@ -1,0 +1,6 @@
+framework module vaccination_tracker {
+    umbrella header "vaccination_tracker.h"
+
+    export *
+    module * { export * }
+}

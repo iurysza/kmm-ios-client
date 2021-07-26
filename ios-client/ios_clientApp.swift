@@ -1,20 +1,13 @@
-//
-//  ios_clientApp.swift
-//  ios-client
-//
-//  Created by Iury on 28/06/21.
-//
-
 import SwiftUI
-import kmmpoc
+import vaccination_tracker
 
 @main
 struct ios_clientApp: App {
-    let sdk = HackerNewsSDK(databaseDriverFactory: DatabaseDriverFactory())
+    let sdk = VaccinationTracker(databaseDriverFactory: DatabaseDriverFactory())
 
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: .init(sdk: sdk))
+            ContentView(viewModel: ViewModel(sdk: sdk))
         }
     }
 }

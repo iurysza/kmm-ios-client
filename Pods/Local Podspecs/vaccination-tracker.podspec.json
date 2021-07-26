@@ -1,0 +1,22 @@
+{
+  "name": "vaccination-tracker",
+  "version": "1.0.13",
+  "summary": "Brazilian Covid vaccination Data per state",
+  "homepage": "https://github.com/iurysza/kmm-poc-cocoa",
+  "description": "KMM for building SDKs",
+  "license": "UNLICENSED",
+  "authors": {
+    "Iury Souza": "iurysza@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "vaccination_tracker.framework"
+  },
+  "source": {
+    "git": "https://github.com/iurysza/kmm-poc-cocoa.git",
+    "tag": "v1.0.13"
+  },
+  "exclude_files": "Classes/Exclude"
+}

@@ -1,21 +1,22 @@
 PODS:
-  - kmmpoc (1.0.9)
+  - vaccination-tracker (1.0.13)
 
 DEPENDENCIES:
-  - kmmpoc (from `https://github.com/iurysza/kmm-poc-cocoa.git`)
+  - vaccination-tracker (from `https://github.com/iurysza/kmm-poc-cocoa.git`, branch `develop`)
 
 EXTERNAL SOURCES:
-  kmmpoc:
+  vaccination-tracker:
+    :branch: develop
     :git: https://github.com/iurysza/kmm-poc-cocoa.git
 
 CHECKOUT OPTIONS:
-  kmmpoc:
-    :commit: 7c164fbdf0918d2f1027ac080fffb36cad919400
+  vaccination-tracker:
+    :commit: 282f01f3efa484d1ec0d4c99a9005dfbd34a3655
     :git: https://github.com/iurysza/kmm-poc-cocoa.git
 
 SPEC CHECKSUMS:
-  kmmpoc: 0a55da8189f53c7be33d82e99a0cb44e6933b7f6
+  vaccination-tracker: beffa08adf75ce21864ce78073164fc2777085f7
 
-PODFILE CHECKSUM: ade7e4ac0d3e2b6384dcfa4f8ef961e6c433b8b2
+PODFILE CHECKSUM: 7dd496c18e448486a18c568336b06e7bf95720d8
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
