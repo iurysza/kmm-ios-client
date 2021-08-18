@@ -6,11 +6,10 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            listView()
-            .navigationBarTitle("Articles")
-            .navigationBarItems(trailing:
-                Button("Reload") {
-                    viewModel.loadArticles(forceReload: true)
+            listView().navigationBarTitle("Vaccination Data")
+                    .navigationBarItems(trailing:
+            Button("Reload") {
+                viewModel.loadArticles(forceReload: true)
             })
         }
     }
